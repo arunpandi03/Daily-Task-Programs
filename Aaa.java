@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aaa extends Thread {
+public class arithmetic extends Thread {
 	public void run() {
 		meth(5, 10);
 	}
@@ -48,7 +48,7 @@ class Division extends Thread {
 
 class Bbb {
 	public static void main(String[] args) throws InterruptedException {
-		Aaa N = new Aaa();
+		arithmetic N = new arithmetic();
 		Subtraction N1 = new Subtraction();
 		Multiplication N2 = new Multiplication();
 		Division N3 = new Division();
